@@ -9,17 +9,26 @@ This project aims to explore and analyze various graph coloring algorithms with 
 3. **Data consolidation:** Consolidate and analyze performance metrics, producing insights and visualizations.
 
 ## Directory Structure
+
 - **`Benchmarks/`:** Contains CSV files with performance metrics for different algorithms and configurations.
 - **`Charts_And_Graphs/`:** Holds generated images showing performance metrics and comparisons.
-- **`Data_Cleaning_And_Manipulation/`:** Python scripts for processing and analyzing data:
+- **`Data_Cleaning_And_Manipulation/`:** Python scripts for processing and analyzing data along with their CSV outputs:
   - **`data_consolidation.py`:** Consolidates individual CSV files into a single dataset.
   - **`comparison_metrics.py`:** Calculates speedup and efficiency metrics.
   - **`visualization.py`:** Generates visualizations based on the consolidated dataset.
 - **`src/`:** Source code, divided into the following directories:
-  - **`Utils/`:** Contains libraries for parallelization and benchmarking.
-  - **`Vertex/`:** Provides data structures for managing vertices.
-  - **`Graph/`:** Manages the graph, including loading from `.gra` and `.graph` files, and providing key methods for graph manipulation.
-  - **`Solve/`:** Implements graph coloring algorithms, extending the `Solver` class.
+  - **`Helpers/`:** Contains libraries for parallelization and benchmarking, including:
+    - **`Performance.h`:** Measures performance and outputs results to a CSV.
+    - **`TimeLog.h`:** Logs the time taken by an algorithm.
+    - **`Split_Range.hpp`:** Splits a range into non-overlapping sub-ranges for parallel processing.
+    - **`ParallelProcessing.hpp`:** Allows parallel execution of functions on a vector.
+    - **`Graph.h` & `Graph.cpp`:** Manages the graph, including loading from `.gra` and `.graph` files, and providing key methods for graph manipulation.
+  - **`Algorithms/`:** Implements graph coloring algorithms, including:
+    - **`Greedy`:** Sequential algorithm using a simple greedy strategy.
+    - **`JP`:** Implements the Jones & Plassmann algorithm.
+    - **`Luby`:** Implements the Luby algorithm.
+- **`Tests/`:** Contains test graphs used in benchmarking algorithms.
+- **`assets/`:** Additional resources for the project.
 
 ### Building the Project:
 
