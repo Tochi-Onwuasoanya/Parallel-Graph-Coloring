@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+agrocyc_dag_uniq.gra,12684,27314,5488,JonesPlassmann,2,0.006897,0.005566,5

@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+citeseer.scc.gra,693947,624564,55758,Luby,8,0.252913,0.823137,6

@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+agrocyc_dag_uniq.gra,12684,27314,5488,Luby,2,0.013211,0.037389,5

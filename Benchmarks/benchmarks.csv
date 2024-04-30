@@ -1,0 +1,6 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+agrocyc_dag_uniq.gra,12684,27314,5488,Greedy,1,0.764987,0.010404,5
+citeseer.scc.gra,693947,624564,55758,Greedy,1,7.173447,0.625827,5
+rgg_n_2_15_s0.graph,32768,160240,24,Greedy,1,0.112489,0.040832,14
+citeseer_sub_10720.gra,10720,88516,192,Greedy,1,0.024977,0.009200,12
+ba10k2d.gra,10000,39992,228,Greedy,1,0.011589,0.006134,8

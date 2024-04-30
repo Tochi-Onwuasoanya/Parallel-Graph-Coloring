@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+ba10k2d.gra,10000,39992,228,Luby,8,0.006643,0.079811,8

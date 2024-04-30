@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+rgg_n_2_15_s0.graph,32768,160240,24,JonesPlassmann,8,0.044905,0.009778,13

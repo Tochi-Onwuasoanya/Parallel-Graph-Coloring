@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+citeseer_sub_10720.gra,10720,88516,192,Greedy,1,0.020760,0.006712,12

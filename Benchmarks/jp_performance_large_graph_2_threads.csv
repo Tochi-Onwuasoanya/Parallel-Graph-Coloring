@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+citeseer.scc.gra,693947,624564,55758,JonesPlassmann,2,0.343883,0.296639,4

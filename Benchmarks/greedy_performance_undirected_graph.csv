@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+rgg_n_2_15_s0.graph,32768,160240,24,Greedy,1,0.116685,0.027843,14

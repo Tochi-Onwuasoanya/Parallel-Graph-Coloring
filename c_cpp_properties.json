@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/Graph",
+                "${workspaceFolder}/Vertex",
+                "${workspaceFolder}/Colors",
+                "${workspaceFolder}/Utils",
+                "${workspaceFolder}/Solve"
+            ],
+            // Additional settings as needed
+        }
+    ],
+    "version": 4
+}

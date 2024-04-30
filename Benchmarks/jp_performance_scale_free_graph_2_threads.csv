@@ -1,0 +1,2 @@
+Graph,V,E,MaxDegree,Algorithm,NumThreads,LoadTime,ColoringTime,NumColorsUsed
+ba10k2d.gra,10000,39992,228,JonesPlassmann,2,0.011280,0.009164,7
